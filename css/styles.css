@@ -29,6 +29,8 @@ head {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
+        line-height: 1.17
 }
 
 .stud-logo {
@@ -38,6 +40,8 @@ head {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
+        font-family: "Raleway", sans-serif;
+        line-height: 1.17
 }
 
 .header-item {
@@ -54,7 +58,7 @@ head {
 }
 
 .address {
-
+font-style: normal
 }
 
 .header-item {
@@ -65,8 +69,15 @@ head {
         color: #434455;
 }
 
-.address-link :focus,
-.address-link :hover {
+.address-link {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.address-item :focus,
+.address-item :hover {
     color: #404bbf;
 }
 
@@ -81,6 +92,7 @@ head {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        line-height: 1.07
 }
 
 .btn-hero {
@@ -88,12 +100,13 @@ head {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        background-color: #4D5AE5;
         color: #fff;
-        background: #4d5ae5;
+        cursor: pointer;
 }
 .btn-hero :focus,
 .btn-hero :hover {
-    background: #404bbf;
+background-color: #404BBF;
 }
 
 .hidden-text {
@@ -121,7 +134,7 @@ head {
 }
 
 .bloc-team {
-
+background-color: #F4F4FD
 }
 
 .title-team {
@@ -131,10 +144,12 @@ font-weight: 700;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    line-height: 1.11
+    
 }
 
 .team-item {
-    
+    background-color: #FFFFFF
 }
 
 .team-name {
@@ -157,7 +172,14 @@ font-weight: 400;
 
 .bloc-portfolio {}
 
-.title-portfolio {}
+.title-portfolio {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
 
 .Portfolio-item {}
 
@@ -195,6 +217,8 @@ font-weight: 400;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
+        line-height: 1.17
+        
 }
 .text-footer {
     font-weight: 400;
@@ -202,4 +226,5 @@ font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        font-family: "Raleway", sans-serif;
 }
