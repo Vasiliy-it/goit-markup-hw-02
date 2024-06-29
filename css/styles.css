@@ -62,18 +62,18 @@ font-style: normal
 }
 
 .header-item {
-    font-weight: 400;
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: #2e2f42;
 }
 
 .address-link {
-    font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .address-item :focus,
@@ -104,7 +104,9 @@ font-style: normal
         color: #fff;
         cursor: pointer;
 }
-.btn-hero :focus,
+.btn-hero :focus {
+    background-color: #404BBF;
+}
 .btn-hero :hover {
 background-color: #404BBF;
 }
