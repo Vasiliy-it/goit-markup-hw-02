@@ -6,8 +6,8 @@ body {
 
 a {
     text-decoration: none;
-    font-family: inherit;
-    color: currentColor;
+        color: #434455;
+        line-height: 1;
 }
 
 ol,
@@ -52,8 +52,10 @@ head {
         color: #2e2f42;
 }
 
-.header-item :focus, 
-.header-item :hover {
+.header-item:focus {
+    color: #404bbf;
+}
+.header-item:hover {
          color: #404bbf;
 }
 
@@ -76,8 +78,8 @@ font-size: 16px;
     color: #434455;
 }
 
-.address-item :focus,
-.address-item :hover {
+.address-link:focus,
+.address-link:hover {
     color: #404bbf;
 }
 
@@ -107,15 +109,16 @@ h1 {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.02em;
         background-color: #4D5AE5;
         color: #fff;
         cursor: pointer;
+        text-align: center;
 }
-.btn-hero :focus {
+.btn-hero:focus {
     background-color: #404BBF;
 }
-.btn-hero :hover {
+.btn-hero:hover {
 background-color: #404BBF;
 }
 
